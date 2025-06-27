@@ -3,10 +3,9 @@ import React from 'react';
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 import Hero from '../components/Hero';
-import Announcements from '../components/Announcements';
 import QuickAccess from '../components/QuickAccess';
-import InstituteHighlights from '../components/InstituteHighlights';
-import AcademicPrograms from '../components/AcademicPrograms';
+import Highlights from '../components/Highlights';
+import LeadershipProfile from '../components/LeadershipProfile';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -15,10 +14,9 @@ const Index = () => {
       <Header />
       <Navigation />
       <Hero />
-      <Announcements />
       <QuickAccess />
-      <InstituteHighlights />
-      <AcademicPrograms />
+      <Highlights />
+      <LeadershipProfile />
       <Footer />
     </div>
   );

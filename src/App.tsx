@@ -17,6 +17,8 @@ import Journal from "./pages/Journal";
 import IndustryConnect from "./pages/IndustryConnect";
 import DipMA from "./pages/DipMA";
 import NotFound from "./pages/NotFound";
+import Events from "./pages/Events";
+import Announcements from "./pages/Announcements";
 
 // About sub-pages
 import InstituteHistory from "./pages/about/InstituteHistory";
@@ -48,6 +50,7 @@ import StudentsExaminations from "./pages/students/StudentsExaminations";
 import StudentsNetwork from "./pages/students/StudentsNetwork";
 import StudentsPress from "./pages/students/StudentsPress";
 import StudentsContact from "./pages/students/StudentsContact";
+import ExamResults from "./pages/students/ExamResults";
 
 // Placement sub-pages
 import PlacementAbout from "./pages/placement/PlacementAbout";
@@ -117,6 +120,9 @@ import DipMAAdmission from "./pages/dipma/DipMAAdmission";
 import DipMACurriculum from "./pages/dipma/DipMACurriculum";
 import DipMAExamination from "./pages/dipma/DipMAExamination";
 
+// New Pages
+import Updates from "./pages/Updates";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -161,6 +167,7 @@ const App = () => (
           <Route path="/students/network" element={<StudentsNetwork />} />
           <Route path="/students/press" element={<StudentsPress />} />
           <Route path="/students/contact" element={<StudentsContact />} />
+          <Route path="/students/results" element={<ExamResults />} />
 
           {/* Placement Routes */}
           <Route path="/placement" element={<Placement />} />
@@ -241,6 +248,11 @@ const App = () => (
           <Route path="/dipma/admission" element={<DipMAAdmission />} />
           <Route path="/dipma/curriculum" element={<DipMACurriculum />} />
           <Route path="/dipma/examination" element={<DipMAExamination />} />
+
+          {/* Updates Route */}
+          <Route path="/updates" element={<Updates />} />
+          <Route path="/announcements" element={<Announcements />} />
+          <Route path="/events" element={<Events />} />
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

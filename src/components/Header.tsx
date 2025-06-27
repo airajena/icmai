@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Phone, Mail } from 'lucide-react';
@@ -34,8 +33,12 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo Section */}
           <Link to="/" className="flex items-center space-x-4">
-            <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">ICMAI</span>
+            <div className="w-16 h-16 flex items-center justify-center">
+              <img 
+                src="/assets/img/logo.webp" 
+                alt="ICMAI Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-blue-900">The Institute of Cost Accountants of India</h1>
