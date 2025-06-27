@@ -54,7 +54,7 @@ const QuickAccess = () => {
   ];
 
   const taxationServices = [
-    { icon: Calculator, title: 'GST Services', description: 'GST compliance', path: '/taxation/gst-services' },
+    { icon: Calculator, title: 'Taxation Services', description: 'Taxation Services', path: '/taxation' },
     { icon: FileText, title: 'Direct Tax', description: 'Income tax services', path: '/taxation/direct-taxation' },
     { icon: Download, title: 'Resources', description: 'Tax publications', path: '/taxation/publication' },
     { icon: HeartHandshake, title: 'Help Desk', description: 'Tax support', path: '/taxation/helpdesk' }
@@ -68,7 +68,7 @@ const QuickAccess = () => {
   ];
 
   const research = [
-    { icon: Library, title: 'Journal', description: 'Latest publications', path: '/journal' },
+    { icon: Library, title: 'Journal', description: 'Latest publications', path: '/journal/latest' },
     { icon: FileText, title: 'Research Papers', description: 'Academic research', path: '/journal/research' },
     { icon: Book, title: 'Case Studies', description: 'Industry cases', path: '/journal/cases' },
     { icon: BarChart, title: 'Reports', description: 'Industry insights', path: '/journal/reports' }
@@ -89,7 +89,7 @@ const QuickAccess = () => {
   ];
 
   const updates = [
-    { icon: Bell, title: 'Latest News', description: 'Recent updates', path: '/updates' },
+    { icon: Bell, title: 'Latest Updates', description: 'Recent updates', path: '/updates' },
     { icon: Calendar, title: 'Events', description: 'Upcoming events', path: '/updates#events' },
     { icon: FileText, title: 'Notices', description: 'Important notices', path: '/updates#notices' },
     { icon: Download, title: 'Circulars', description: 'Official circulars', path: '/updates#circulars' }

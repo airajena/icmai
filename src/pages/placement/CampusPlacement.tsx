@@ -9,7 +9,17 @@ import {
   ArrowRight,
   BriefcaseIcon,
   Target,
-  Compass
+  Compass,
+  TrendingUp,
+  Trophy,
+  Building2,
+  CheckCircle2,
+  FileText,
+  Presentation,
+  Video,
+  BarChart,
+  Medal,
+  Briefcase
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -76,6 +86,122 @@ const orientationBatches = [
     dates: "11.03.25 to 23.03.25",
     timing: "10:30am to 06:00pm",
     venue: "EIRC Auditorium, CMA Bhawan"
+  }
+];
+
+const placementStats = [
+  {
+    label: "Average Package",
+    value: "₹12.8 LPA",
+    change: "+15% from last year"
+  },
+  {
+    label: "Highest Package",
+    value: "₹24.5 LPA",
+    change: "International Offer"
+  },
+  {
+    label: "Placement Rate",
+    value: "94%",
+    change: "Within 3 months"
+  },
+  {
+    label: "Companies Visited",
+    value: "180+",
+    change: "In 2024-25"
+  }
+];
+
+const keyRecruiters = [
+  {
+    name: "Banking & Financial Services",
+    companies: ["HDFC Bank", "ICICI Bank", "State Bank of India", "Kotak Mahindra"]
+  },
+  {
+    name: "Consulting & Advisory",
+    companies: ["Deloitte", "KPMG", "EY", "PwC"]
+  },
+  {
+    name: "Manufacturing",
+    companies: ["Tata Steel", "L&T", "Hindustan Unilever", "ITC Limited"]
+  },
+  {
+    name: "Technology",
+    companies: ["TCS", "Infosys", "Wipro", "Tech Mahindra"]
+  }
+];
+
+const successStories = [
+  {
+    name: "Priya Sharma, ACMA",
+    role: "Senior Cost Analyst",
+    company: "KPMG India",
+    package: "18.5 LPA",
+    batch: "2024",
+    quote: "The placement preparation and mock interviews were instrumental in my success."
+  },
+  {
+    name: "Rahul Mehta, ACMA",
+    role: "Management Consultant",
+    company: "Deloitte",
+    package: "16.8 LPA",
+    batch: "2024",
+    quote: "ICMAI's industry connections helped me land my dream role."
+  },
+  {
+    name: "Anita Patel, ACMA",
+    role: "Finance Manager",
+    company: "Tata Steel",
+    package: "15.2 LPA",
+    batch: "2024",
+    quote: "The pre-placement workshops gave me the confidence I needed."
+  }
+];
+
+const placementResources = [
+  {
+    title: "Interview Preparation",
+    description: "Comprehensive guides and mock interview sessions",
+    resources: [
+      "Technical Interview Guide",
+      "HR Interview Questions",
+      "Case Study Preparation",
+      "Group Discussion Tips"
+    ],
+    icon: FileText
+  },
+  {
+    title: "Soft Skills Development",
+    description: "Essential communication and presentation skills",
+    resources: [
+      "Business Communication",
+      "Professional Etiquette",
+      "Leadership Skills",
+      "Team Collaboration"
+    ],
+    icon: Presentation
+  },
+  {
+    title: "Technical Preparation",
+    description: "Industry-specific technical knowledge",
+    resources: [
+      "Cost Accounting Practice",
+      "Financial Analysis",
+      "SAP & ERP Basics",
+      "Advanced Excel"
+    ],
+    icon: BookOpen
+  },
+  {
+    title: "Industry Knowledge",
+    description: "Current trends and industry insights",
+    resources: [
+      "Industry Reports",
+      "Market Analysis",
+      "Regulatory Updates",
+      "Case Studies"
+    ],
+    icon: Briefcase
   }
 ];
 
@@ -238,6 +364,134 @@ const CampusPlacement = () => {
               </Card>
             </motion.div>
           ))}
+        </div>
+      </div>
+
+      {/* Placement Statistics Section */}
+      <div className="container mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8">Placement Highlights</h2>
+        <div className="grid md:grid-cols-4 gap-6">
+          {placementStats.map((stat, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+            >
+              <Card className="text-center p-6 hover:shadow-lg transition-all">
+                <TrendingUp className="w-8 h-8 text-blue-600 mx-auto mb-4" />
+                <h3 className="text-3xl font-bold text-gray-900 mb-2">{stat.value}</h3>
+                <p className="text-gray-600 font-medium">{stat.label}</p>
+                <p className="text-sm text-blue-600 mt-2">{stat.change}</p>
+              </Card>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+
+      {/* Key Recruiters Section */}
+      <div className="bg-gray-50 py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Key Recruiters</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {keyRecruiters.map((sector, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <Card className="h-full">
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                      <Building2 className="w-5 h-5 text-blue-600" />
+                      {sector.name}
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      {sector.companies.map((company, idx) => (
+                        <span
+                          key={idx}
+                          className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800"
+                        >
+                          {company}
+                        </span>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Success Stories Section */}
+      <div className="container mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8">Success Stories</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          {successStories.map((story, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+            >
+              <Card className="h-full hover:shadow-lg transition-all">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <Medal className="w-8 h-8 text-blue-600" />
+                    <div>
+                      <h3 className="font-bold text-gray-900">{story.name}</h3>
+                      <p className="text-blue-600 font-medium">{story.role}</p>
+                      <p className="text-sm text-gray-600 mb-4">{story.company}</p>
+                      <div className="space-y-2 text-sm text-gray-600">
+                        <p className="flex items-center gap-2">
+                          <Trophy className="w-4 h-4" /> Package: {story.package}
+                        </p>
+                        <p className="flex items-center gap-2">
+                          <GraduationCap className="w-4 h-4" /> Batch: {story.batch}
+                        </p>
+                      </div>
+                      <p className="mt-4 text-gray-600 italic">"{story.quote}"</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+
+      {/* Placement Resources Section */}
+      <div className="bg-gray-50 py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Placement Resources</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {placementResources.map((resource, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <Card className="h-full hover:shadow-lg transition-all">
+                  <CardContent className="p-6">
+                    <resource.icon className="w-8 h-8 text-blue-600 mb-4" />
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">{resource.title}</h3>
+                    <p className="text-gray-600 text-sm mb-4">{resource.description}</p>
+                    <ul className="space-y-2">
+                      {resource.resources.map((item, idx) => (
+                        <li key={idx} className="flex items-center gap-2 text-sm text-gray-600">
+                          <CheckCircle2 className="w-4 h-4 text-blue-600" />
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
 

@@ -93,7 +93,7 @@ const LatestJournals = () => {
     <PageTemplate
       heroTitle="The Management Accountant Journal"
       heroSubtitle="ICMAI's Premier Research Publication Since 1966"
-      heroImage="/assets/img/journal-hero.webp"
+      heroImage="/assets/img/j3.png"
     >
       <div className="container mx-auto px-4 py-12 space-y-12">
         {/* Featured Articles */}

@@ -12,7 +12,16 @@ import {
   BookOpen,
   Landmark,
   Mail,
-  Phone
+  Phone,
+  CalendarDays,
+  TrendingUp,
+  BookMarked,
+  Globe,
+  Target,
+  Award,
+  Presentation,
+  Download,
+  Calendar
 } from 'lucide-react';
 import PageTemplate from '../components/PageTemplate';
 import { Button } from '@/components/ui/button';
@@ -79,13 +88,89 @@ const Taxation = () => {
     }
   ];
 
+  const latestUpdates = [
+    {
+      date: "June 25, 2025",
+      title: "New Guidelines for GST E-invoicing",
+      category: "GST",
+      link: "#"
+    },
+    {
+      date: "June 20, 2025",
+      title: "Direct Tax Collections FY 2024-25",
+      category: "Direct Tax",
+      link: "#"
+    },
+    {
+      date: "June 15, 2025",
+      title: "Changes in Custom Duty Structure",
+      category: "Indirect Tax",
+      link: "#"
+    }
+  ];
+
+  const publications = [
+    {
+      title: "Tax Bulletin - June 2025",
+      type: "Monthly Magazine",
+      description: "Comprehensive coverage of latest tax updates, case laws, and expert analyses"
+    },
+    {
+      title: "GST Handbook 2025",
+      type: "Annual Publication",
+      description: "Complete guide to GST implementation and compliance"
+    },
+    {
+      title: "Direct Tax Ready Reckoner",
+      type: "Reference Guide",
+      description: "Quick reference guide for direct tax calculations and provisions"
+    }
+  ];
+
+  const upcomingWebinars = [
+    {
+      date: "July 5, 2025",
+      title: "Recent Changes in GST Returns",
+      speaker: "CMA Rajesh Kumar",
+      duration: "2 hours"
+    },
+    {
+      date: "July 12, 2025",
+      title: "International Taxation and Transfer Pricing",
+      speaker: "CMA Priya Sharma",
+      duration: "3 hours"
+    },
+    {
+      date: "July 19, 2025",
+      title: "Tax Audit and Compliance",
+      speaker: "CMA Vikram Malhotra",
+      duration: "2.5 hours"
+    }
+  ];
+
   return (
     <PageTemplate
       heroTitle="Taxation Excellence"
       heroSubtitle="Comprehensive tax education, research, and professional development"
-      heroImage="/assets/img/taxation-hero.jpg"
+      heroImage="/assets/img/v2.jpg"
     >
       <div className="container mx-auto px-4 py-12 space-y-12">
+        {/* Stats Section */}
+        <motion.div {...fadeIn} className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          {[
+            { icon: Users, stat: "10,000+", label: "Tax Professionals Trained" },
+            { icon: BookMarked, stat: "500+", label: "Tax Publications" },
+            { icon: Presentation, stat: "200+", label: "Annual Webinars" },
+            { icon: Award, stat: "50+", label: "Tax Research Papers" }
+          ].map((item, index) => (
+            <Card key={index} className="p-6 text-center">
+              <item.icon className="w-12 h-12 text-blue-900 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold mb-2">{item.stat}</h3>
+              <p className="text-gray-600">{item.label}</p>
+            </Card>
+          ))}
+        </motion.div>
+
         {/* Main Sections */}
         <motion.div {...fadeIn} className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card className="p-6 hover:shadow-lg transition-shadow">
@@ -121,6 +206,122 @@ const Taxation = () => {
             </ul>
           </Card>
         </motion.div>
+
+        {/* Latest Tax Updates */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <TrendingUp className="w-8 h-8 text-blue-900" />
+            Latest Tax Updates
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {latestUpdates.map((update, index) => (
+              <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
+                <div className="text-sm text-blue-900 mb-2">{update.date}</div>
+                <h3 className="font-bold mb-2">{update.title}</h3>
+                <div className="mb-4">
+                  <span className="bg-blue-100 text-blue-900 px-2 py-1 rounded text-sm">
+                    {update.category}
+                  </span>
+                </div>
+                <a href={update.link} className="text-blue-900 hover:underline text-sm flex items-center gap-1">
+                  Read More <ArrowRight className="w-4 h-4" />
+                </a>
+              </Card>
+            ))}
+          </div>
+        </motion.section>
+
+        {/* Publications Section */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <BookOpen className="w-8 h-8 text-blue-900" />
+            Tax Publications
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {publications.map((pub, index) => (
+              <Card key={index} className="p-6">
+                <h3 className="text-xl font-bold mb-2">{pub.title}</h3>
+                <div className="text-sm text-blue-900 mb-3">{pub.type}</div>
+                <p className="text-gray-600 mb-4">{pub.description}</p>
+                <Button variant="outline" className="w-full">
+                  <Download className="w-4 h-4 mr-2" /> Download
+                </Button>
+              </Card>
+            ))}
+          </div>
+        </motion.section>
+
+        {/* Upcoming Webinars */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <Globe className="w-8 h-8 text-blue-900" />
+            Upcoming Webinars
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {upcomingWebinars.map((webinar, index) => (
+              <Card key={index} className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-blue-100 p-3 rounded-lg">
+                    <Calendar className="w-8 h-8 text-blue-900" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold mb-2">{webinar.title}</h3>
+                    <div className="space-y-1 text-sm text-gray-600">
+                      <p>Date: {webinar.date}</p>
+                      <p>Speaker: {webinar.speaker}</p>
+                      <p>Duration: {webinar.duration}</p>
+                    </div>
+                    <Button className="mt-4">Register Now</Button>
+                  </div>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </motion.section>
+
+        {/* Success Stories */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <Target className="w-8 h-8 text-blue-900" />
+            Success Stories
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card className="p-6">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 p-3 rounded-full">
+                  <Building2 className="w-6 h-6 text-blue-900" />
+                </div>
+                <div>
+                  <h3 className="font-bold mb-2">Corporate Tax Advisory</h3>
+                  <p className="text-gray-600 mb-4">
+                    Our team successfully assisted a leading manufacturing company in optimizing their tax structure, 
+                    resulting in 25% tax savings through legitimate planning.
+                  </p>
+                  <Button variant="link" className="p-0">Read Full Story →</Button>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 p-3 rounded-full">
+                  <Scale className="w-6 h-6 text-blue-900" />
+                </div>
+                <div>
+                  <h3 className="font-bold mb-2">GST Implementation</h3>
+                  <p className="text-gray-600 mb-4">
+                    Helped over 100 SMEs transition smoothly to GST compliance, providing training and 
+                    implementation support throughout the process.
+                  </p>
+                  <Button variant="link" className="p-0">Read Full Story →</Button>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </motion.section>
 
         {/* Courses Section */}
         <motion.section {...fadeIn} className="space-y-6">
@@ -208,6 +409,58 @@ const Taxation = () => {
                 </div>
               </Card>
             ))}
+          </div>
+        </motion.section>
+
+        {/* Resources Section */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <FileText className="w-8 h-8 text-blue-900" />
+            Tax Resources
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <Card className="p-6">
+              <h3 className="font-bold mb-3">Tax Forms</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li className="flex items-center gap-2">
+                  <Download className="w-4 h-4" />
+                  Income Tax Returns
+                </li>
+                <li className="flex items-center gap-2">
+                  <Download className="w-4 h-4" />
+                  GST Forms
+                </li>
+                <li className="flex items-center gap-2">
+                  <Download className="w-4 h-4" />
+                  TDS Returns
+                </li>
+              </ul>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-bold mb-3">Calculators</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>Income Tax Calculator</li>
+                <li>GST Calculator</li>
+                <li>TDS Calculator</li>
+              </ul>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-bold mb-3">Due Dates</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>Tax Filing Calendar</li>
+                <li>GST Return Dates</li>
+                <li>TDS Payment Dates</li>
+              </ul>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-bold mb-3">Quick Links</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>Income Tax Portal</li>
+                <li>GST Portal</li>
+                <li>E-filing Guide</li>
+              </ul>
+            </Card>
           </div>
         </motion.section>
 

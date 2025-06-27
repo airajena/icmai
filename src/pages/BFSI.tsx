@@ -12,7 +12,16 @@ import {
   Landmark,
   Shield,
   Scale,
-  Phone
+  Phone,
+  TrendingUp,
+  Award,
+  Target,
+  Briefcase,
+  Globe,
+  ChartBar,
+  Download,
+  Mail,
+  Book
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -97,13 +106,89 @@ const BFSI = () => {
     }
   ];
 
+  const industryInsights = [
+    {
+      title: "Digital Banking Transformation",
+      category: "Banking",
+      date: "June 25, 2025",
+      description: "Analysis of digital transformation trends in Indian banking sector"
+    },
+    {
+      title: "ESG in Financial Services",
+      category: "Finance",
+      date: "June 20, 2025",
+      description: "Impact of ESG factors on financial services industry"
+    },
+    {
+      title: "InsurTech Revolution",
+      category: "Insurance",
+      date: "June 15, 2025",
+      description: "How technology is reshaping the insurance industry"
+    }
+  ];
+
+  const careerPaths = [
+    {
+      role: "Risk Management Specialist",
+      skills: ["Risk Assessment", "Basel Guidelines", "Stress Testing"],
+      avgSalary: "₹12-18 LPA"
+    },
+    {
+      role: "Financial Analyst",
+      skills: ["Financial Modeling", "Valuation", "Industry Analysis"],
+      avgSalary: "₹8-15 LPA"
+    },
+    {
+      role: "Insurance Actuary",
+      skills: ["Statistical Analysis", "Product Design", "Risk Assessment"],
+      avgSalary: "₹15-25 LPA"
+    }
+  ];
+
+  const regulatoryUpdates = [
+    {
+      authority: "RBI",
+      title: "New Digital Lending Guidelines",
+      date: "June 2025",
+      impact: "High"
+    },
+    {
+      authority: "SEBI",
+      title: "Updated Mutual Fund Regulations",
+      date: "May 2025",
+      impact: "Medium"
+    },
+    {
+      authority: "IRDAI",
+      title: "Revised Insurance Distribution Guidelines",
+      date: "April 2025",
+      impact: "High"
+    }
+  ];
+
   return (
     <PageTemplate
       heroTitle="Banking, Financial Services and Insurance"
       heroSubtitle="Empowering professionals in the BFSI sector with knowledge and expertise"
-      heroImage="/assets/img/bfsi-hero.jpg"
+      heroImage="/assets/img/v3.jpeg"
     >
       <div className="container mx-auto px-4 py-12 space-y-12">
+        {/* Stats Section */}
+        <motion.div {...fadeIn} className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          {[
+            { icon: Users, stat: "25,000+", label: "BFSI Professionals" },
+            { icon: BookOpen, stat: "100+", label: "Publications" },
+            { icon: Calendar, stat: "50+", label: "Annual Events" },
+            { icon: Award, stat: "200+", label: "Expert Faculty" }
+          ].map((item, index) => (
+            <Card key={index} className="p-6 text-center">
+              <item.icon className="w-12 h-12 text-blue-900 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold mb-2">{item.stat}</h3>
+              <p className="text-gray-600">{item.label}</p>
+            </Card>
+          ))}
+        </motion.div>
+
         {/* Main Sectors */}
         <motion.div {...fadeIn} className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card className="p-6 hover:shadow-lg transition-shadow">
@@ -140,6 +225,85 @@ const BFSI = () => {
           </Card>
         </motion.div>
 
+        {/* Industry Insights */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <TrendingUp className="w-8 h-8 text-blue-900" />
+            Industry Insights
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {industryInsights.map((insight, index) => (
+              <Card key={index} className="p-6">
+                <div className="text-sm text-blue-900 mb-2">{insight.category}</div>
+                <h3 className="font-bold mb-2">{insight.title}</h3>
+                <p className="text-gray-600 text-sm mb-3">{insight.description}</p>
+                <div className="text-sm text-gray-500">{insight.date}</div>
+                <Button variant="link" className="mt-2 p-0">Read More →</Button>
+              </Card>
+            ))}
+          </div>
+        </motion.section>
+
+        {/* Career Paths */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <Briefcase className="w-8 h-8 text-blue-900" />
+            Career Opportunities
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {careerPaths.map((career, index) => (
+              <Card key={index} className="p-6">
+                <h3 className="text-xl font-bold mb-4">{career.role}</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-gray-700">Key Skills:</h4>
+                    <ul className="list-disc list-inside text-gray-600 text-sm">
+                      {career.skills.map((skill, i) => (
+                        <li key={i}>{skill}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-700">Average Salary:</h4>
+                    <p className="text-blue-900 font-bold">{career.avgSalary}</p>
+                  </div>
+                </div>
+                <Button className="mt-4 w-full">Explore Role</Button>
+              </Card>
+            ))}
+          </div>
+        </motion.section>
+
+        {/* Regulatory Updates */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <Scale className="w-8 h-8 text-blue-900" />
+            Regulatory Updates
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {regulatoryUpdates.map((update, index) => (
+              <Card key={index} className="p-6">
+                <div className="flex justify-between items-start mb-4">
+                  <div className="bg-blue-100 text-blue-900 px-3 py-1 rounded text-sm font-semibold">
+                    {update.authority}
+                  </div>
+                  <div className={`px-3 py-1 rounded text-sm ${
+                    update.impact === 'High' ? 'bg-red-100 text-red-900' : 'bg-yellow-100 text-yellow-900'
+                  }`}>
+                    {update.impact} Impact
+                  </div>
+                </div>
+                <h3 className="font-bold mb-2">{update.title}</h3>
+                <p className="text-sm text-gray-500">{update.date}</p>
+                <Button variant="outline" className="mt-4 w-full">View Details</Button>
+              </Card>
+            ))}
+          </div>
+        </motion.section>
+
         {/* Publications Section */}
         <motion.section {...fadeIn} className="space-y-6">
           <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
@@ -156,6 +320,58 @@ const BFSI = () => {
                 <Button className="mt-4 w-full">Purchase</Button>
               </Card>
             ))}
+          </div>
+        </motion.section>
+
+        {/* Knowledge Resources */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <Book className="w-8 h-8 text-blue-900" />
+            Knowledge Resources
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <Card className="p-6">
+              <h3 className="font-bold mb-3">Research Papers</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li className="flex items-center gap-2">
+                  <Download className="w-4 h-4" />
+                  Banking Sector Analysis
+                </li>
+                <li className="flex items-center gap-2">
+                  <Download className="w-4 h-4" />
+                  FinTech Trends
+                </li>
+                <li className="flex items-center gap-2">
+                  <Download className="w-4 h-4" />
+                  Insurance Market Study
+                </li>
+              </ul>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-bold mb-3">Case Studies</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>Digital Banking Success</li>
+                <li>Risk Management Cases</li>
+                <li>Insurance Innovation</li>
+              </ul>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-bold mb-3">Industry Reports</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>Banking Sector Review</li>
+                <li>Financial Markets Analysis</li>
+                <li>Insurance Industry Outlook</li>
+              </ul>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-bold mb-3">Quick Links</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>RBI Guidelines</li>
+                <li>SEBI Regulations</li>
+                <li>IRDAI Updates</li>
+              </ul>
+            </Card>
           </div>
         </motion.section>
 
@@ -210,6 +426,47 @@ const BFSI = () => {
           <p className="text-sm text-gray-500 mt-4">
             Note: The views expressed in webinars are those of the Speaker. The Institute does not own any responsibility.
           </p>
+        </motion.section>
+
+        {/* Success Stories */}
+        <motion.section {...fadeIn} className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <Target className="w-8 h-8 text-blue-900" />
+            Success Stories
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card className="p-6">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 p-3 rounded-full">
+                  <Building2 className="w-6 h-6 text-blue-900" />
+                </div>
+                <div>
+                  <h3 className="font-bold mb-2">Digital Transformation Success</h3>
+                  <p className="text-gray-600 mb-4">
+                    Our BFSI professionals helped a leading bank transform their operations through 
+                    digital initiatives, resulting in 40% cost reduction and improved customer satisfaction.
+                  </p>
+                  <Button variant="link" className="p-0">Read Full Story →</Button>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 p-3 rounded-full">
+                  <Shield className="w-6 h-6 text-blue-900" />
+                </div>
+                <div>
+                  <h3 className="font-bold mb-2">Risk Management Excellence</h3>
+                  <p className="text-gray-600 mb-4">
+                    Implemented comprehensive risk management framework for a major insurance 
+                    company, leading to 30% reduction in claim processing time.
+                  </p>
+                  <Button variant="link" className="p-0">Read Full Story →</Button>
+                </div>
+              </div>
+            </Card>
+          </div>
         </motion.section>
 
         {/* CTA Section */}
