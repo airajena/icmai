@@ -1,0 +1,270 @@
+# ICMAI Chatbot Training Data
+
+## Basic Questions
+
+Q: What is ICMAI?
+A: The Institute of Cost Accountants of India (ICMAI) is a premier professional accounting body established in 1959, focusing on Cost and Management Accounting education. It is a statutory body established by an Act of Parliament.
+
+Q: Where is ICMAI located?
+A: ICMAI headquarters is at CMA Bhawan, 12 Sudder Street, Kolkata - 700016.
+
+Q: What are ICMAI's contact details?
+A: You can contact ICMAI through:
+- Email: studies@icmai.in
+- Phone: +91-33-2252-1031/1034/1035
+- Website: www.icmai.in
+
+## Navigation Questions
+
+Q: How do I find examination results?
+A: To check results:
+1. Click on 'Student Portal' in top menu
+2. Select 'Examination' tab
+3. Click on 'Results' section
+4. Enter your registration number
+5. Click 'View Results'
+
+Q: Where can I find study materials?
+A: Access study materials by:
+1. Login to Student Portal
+2. Navigate to 'Academic Resources'
+3. Select 'Study Materials'
+4. Choose your course level
+5. Download required materials
+
+Q: How do I access the member portal?
+A: To access the member portal:
+1. Click 'Member Login' in the top menu
+2. Enter your membership number and password
+3. Access member resources
+
+## Course Related Questions
+
+Q: What courses does ICMAI offer?
+A: ICMAI offers several courses:
+1. Foundation Course
+2. Intermediate Course
+3. Final Course
+4. Advanced Studies Programs
+5. Professional Development Programs
+6. Specialized Courses
+
+Q: What is the eligibility for Foundation Course?
+A: For Foundation Course:
+- Minimum qualification: 10+2 pass in any stream
+- No age limit
+- Register through online admission portal
+
+Q: How long does it take to complete the CMA course?
+A: The complete CMA course duration:
+- Foundation: 6-8 months
+- Intermediate: 1 year
+- Final: 1-1.5 years
+Total: Approximately 3-3.5 years
+
+## Admission Process
+
+Q: How do I apply for admission?
+A: To apply for admission:
+1. Visit the admission portal at /students/admission
+2. Choose your course level
+3. Fill the online application form
+4. Upload required documents
+5. Pay admission fees
+6. Submit application
+
+Q: What documents are required for admission?
+A: Required documents include:
+- 10th mark sheet
+- 12th mark sheet
+- Graduation certificate (if applicable)
+- ID proof
+- Recent passport size photographs
+- Address proof
+- Category certificate (if applicable)
+
+Q: How can I pay admission fees?
+A: Fees can be paid through:
+1. Online payment gateway
+2. Net banking
+3. Credit/Debit cards
+4. UPI
+Visit /payment for the payment portal
+
+## Examination Related
+
+Q: When are the examinations conducted?
+A: ICMAI conducts examinations twice a year:
+- June session (Summer)
+- December session (Winter)
+Exact dates are announced on the website
+
+Q: How do I download my admit card?
+A: Download admit card:
+1. Login to student portal
+2. Go to 'Examination' section
+3. Click 'Download Admit Card'
+4. Select examination term
+5. Print your admit card
+
+Q: What is the passing criteria?
+A: To pass:
+- Minimum 40% marks in each paper
+- 50% aggregate marks
+- Separate passing in practical papers
+
+## Member Services
+
+Q: How do I become a member?
+A: To become a member:
+1. Complete CMA final examination
+2. Visit /members/application
+3. Fill membership form
+4. Submit required documents
+5. Pay membership fees
+
+Q: How do I renew my membership?
+A: For membership renewal:
+1. Login to member portal
+2. Go to 'Renewal' section
+3. Pay renewal fees
+4. Download renewal certificate
+
+Q: What are the benefits of membership?
+A: Member benefits include:
+- Professional recognition
+- Access to CPE programs
+- Journal subscription
+- Networking opportunities
+- Practice rights
+- Access to research resources
+
+## Professional Development
+
+Q: How do I register for CPE programs?
+A: Register for CPE:
+1. Visit /pd-cpe/about
+2. Browse available programs
+3. Select desired program
+4. Complete registration
+5. Pay program fees
+
+Q: Where can I find upcoming webinars?
+A: Find webinars:
+1. Go to Professional Development section
+2. Click on 'Upcoming Events'
+3. Browse webinar schedule
+4. Register for desired sessions
+
+## Technical Support
+
+Q: How do I reset my password?
+A: To reset password:
+1. Click 'Forgot Password'
+2. Enter registered email
+3. Follow reset link in email
+4. Create new password
+
+Q: Website is not working, what should I do?
+A: If facing technical issues:
+1. Clear browser cache
+2. Try different browser
+3. Check internet connection
+4. Contact technical support at support@icmai.in
+
+## Research and Publications
+
+Q: How do I access the journal?
+A: Access journals:
+1. Visit /journal/latest
+2. Browse available issues
+3. Download desired articles
+4. For members: Use membership login for full access
+
+Q: Where can I find research papers?
+A: Find research papers:
+1. Go to Publications section
+2. Select 'Research Papers'
+3. Use filters to find relevant papers
+4. Download available papers
+
+## Fee Structure
+
+Q: What are the course fees?
+A: Course fees vary by level:
+- Foundation: Check /students/fees
+- Intermediate: Check /students/fees
+- Final: Check /students/fees
+Note: Fees are updated annually
+
+Q: Are there any scholarships available?
+A: Yes, scholarships are available:
+1. Merit-based scholarships
+2. Need-based financial aid
+3. Special category scholarships
+Visit /students/scholarships for details
+
+## Advanced Studies
+
+Q: What advanced programs are available?
+A: Advanced programs include:
+1. Specialized certifications
+2. International programs
+3. Industry-specific courses
+4. Research programs
+Visit /advanced-studies/courses for details
+
+Q: How do I apply for advanced studies?
+A: Apply for advanced studies:
+1. Visit /advanced-studies/about
+2. Check eligibility criteria
+3. Submit application
+4. Complete admission process
+
+## Industry Connect
+
+Q: How can companies hire CMAs?
+A: For recruitment:
+1. Visit /industry-connect/collaborations
+2. Register as recruiter
+3. Post job requirements
+4. Participate in placement drives
+
+Q: What industry partnerships exist?
+A: Find partnerships:
+1. Go to Industry Connect section
+2. View corporate partnerships
+3. Check collaboration opportunities
+4. Access industry resources
+
+## Quick Links Navigation
+
+Q: Where can I find important forms?
+A: Important forms location:
+1. Student forms: /students/forms
+2. Member forms: /members/forms
+3. Examination forms: /students/examinations
+4. Professional Development forms: /pd-cpe/forms
+
+Q: How do I find regional chapters?
+A: Find regional chapters:
+1. Go to About section
+2. Click on 'Regional Chapters'
+3. Use location filter
+4. Contact desired chapter
+
+## Updates and Notifications
+
+Q: How do I stay updated with ICMAI news?
+A: Stay updated through:
+1. News section on homepage
+2. Email newsletters
+3. Social media channels
+4. Mobile app notifications
+
+Q: Where are important notices posted?
+A: Find notices:
+1. Homepage news ticker
+2. Announcements section
+3. Student/Member dashboard
+4. Email notifications

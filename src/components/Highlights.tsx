@@ -124,7 +124,7 @@ const Highlights = () => {
                 onClick={() => navigate('/journal/latest')}
               >
                 <img
-                  src="/placeholder.svg"
+                  src="/assets/img/c5.png"
                   alt="Latest Journal"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />

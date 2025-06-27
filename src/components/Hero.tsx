@@ -181,41 +181,7 @@ const Hero = () => {
       </Carousel>
 
 
-      {/* Statistics Strip */}
-      <div className="bg-gradient-to-t from-black/80 via-black/60 to-transparent pt-8 pb-4">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
-            <div className="text-center">
-              <div className="flex justify-center mb-2">
-                <Users className="w-8 h-8 md:w-10 md:h-10 text-white/90" />
-              </div>
-              <AnimatedCounter end={500000} />
-              <div className="text-xs md:text-sm text-white/80">Total Members</div>
-            </div>
-            <div className="text-center">
-              <div className="flex justify-center mb-2">
-                <Award className="w-8 h-8 md:w-10 md:h-10 text-white/90" />
-              </div>
-              <AnimatedCounter end={65} />
-              <div className="text-xs md:text-sm text-white/80">Years of Service</div>
-            </div>
-            <div className="text-center">
-              <div className="flex justify-center mb-2">
-                <BookOpen className="w-8 h-8 md:w-10 md:h-10 text-white/90" />
-              </div>
-              <AnimatedCounter end={15} />
-              <div className="text-xs md:text-sm text-white/80">Courses Offered</div>
-            </div>
-            <div className="text-center">
-              <div className="flex justify-center mb-2">
-                <MapPin className="w-8 h-8 md:w-10 md:h-10 text-white/90" />
-              </div>
-              <AnimatedCounter end={100} />
-              <div className="text-xs md:text-sm text-white/80">Regional Chapters</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* News Ticker */}
       <div className="bg-blue-900/95 border-t border-white/20 py-2">
@@ -341,6 +307,42 @@ const Hero = () => {
               <Award className="w-5 h-5 mr-2" />
               Exam Results
             </Button>
+          </div>
+        </div>
+      </div>
+
+      {/* Statistics Strip */}
+      <div className="bg-gradient-to-t from-black/80 via-black/60 to-transparent pt-8 pb-4">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <Users className="w-8 h-8 md:w-10 md:h-10 text-white/90" />
+              </div>
+              <AnimatedCounter end={500000} />
+              <div className="text-xs md:text-sm text-white/80">Total Members</div>
+            </div>
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <Award className="w-8 h-8 md:w-10 md:h-10 text-white/90" />
+              </div>
+              <AnimatedCounter end={65} />
+              <div className="text-xs md:text-sm text-white/80">Years of Service</div>
+            </div>
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <BookOpen className="w-8 h-8 md:w-10 md:h-10 text-white/90" />
+              </div>
+              <AnimatedCounter end={15} />
+              <div className="text-xs md:text-sm text-white/80">Courses Offered</div>
+            </div>
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <MapPin className="w-8 h-8 md:w-10 md:h-10 text-white/90" />
+              </div>
+              <AnimatedCounter end={100} />
+              <div className="text-xs md:text-sm text-white/80">Regional Chapters</div>
+            </div>
           </div>
         </div>
       </div>
