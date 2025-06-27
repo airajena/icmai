@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+# ICMAI Portal Builder
 
-## Project info
+A modern, responsive web application for The Institute of Cost Accountants of India (ICMAI) built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/53d8099d-cc60-4026-9f12-2137ff9178c2
+## 🌟 Features
 
-## How can I edit this code?
+- **Modern UI/UX**: Sleek, responsive design with smooth animations using Framer Motion
+- **Interactive Components**: Built with shadcn/ui for consistent, accessible UI elements
+- **Comprehensive Sections**:
+  - Advanced Studies & Research
+  - Professional Development & CPE
+  - Industry Connect with Reports
+  - BFSI Programs
+  - Taxation Resources
+  - Student Services
+  - Journal Publications
+  - Membership Services
 
-There are several ways of editing your application.
+## 🚀 Quick Start
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/53d8099d-cc60-4026-9f12-2137ff9178c2) and start prompting.
+- Node.js 16.x or higher
+- npm 7.x or higher
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/icmai-portal-builder.git
+cd icmai-portal-builder
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies:
+```bash
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Technology Stack
 
-**Use GitHub Codespaces**
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: 
+  - Tailwind CSS for utility-first styling
+  - shadcn/ui for pre-built components
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
+- **State Management**: React Hooks
+- **Development Tools**:
+  - ESLint for code linting
+  - Prettier for code formatting
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Project Structure
 
-## What technologies are used for this project?
+```
+icmai-portal-builder/
+├── src/
+│   ├── components/        # Reusable UI components
+│   │   ├── ui/           # shadcn/ui components
+│   │   └── ...          
+│   ├── pages/            # Page components
+│   │   ├── about/        # About section pages
+│   │   ├── students/     # Student section pages
+│   │   └── ...
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Utilities and helpers
+│   ├── App.tsx          
+│   └── main.tsx
+├── public/               # Static assets
+├── package.json
+└── ...config files
+```
 
-This project is built with:
+## 🎨 Features & Pages
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Core Features
+- Responsive design for all device sizes
+- Modern animation and transitions
+- Accessible UI components
+- Fast page loads with Vite
+- Type-safe development with TypeScript
 
-## How can I deploy this project?
+### Key Pages
+- **Home**: Dynamic hero section, quick access cards
+- **Advanced Studies**: Research programs and resources
+- **Industry Connect**: Interactive industry reports
+- **Professional Development**: Training and certification
+- **Student Services**: Course information and admissions
+- **BFSI Programs**: Banking and financial services
+- **Journal Publications**: Latest research publications
 
-Simply open [Lovable](https://lovable.dev/projects/53d8099d-cc60-4026-9f12-2137ff9178c2) and click on Share -> Publish.
+## 🔧 Development
 
-## Can I connect a custom domain to my Lovable project?
+### Available Scripts
 
-Yes, you can!
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run format` - Format code with Prettier
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Adding New Features
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Create new components in `src/components`
+2. Add new pages in `src/pages`
+3. Update routing in `App.tsx`
+4. Follow TypeScript and ESLint guidelines
+
+## 📱 Responsive Design
+
+The portal is fully responsive with breakpoints:
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is proprietary software owned by ICMAI. All rights reserved.
+
