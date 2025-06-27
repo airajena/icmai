@@ -75,7 +75,7 @@ const QuickAccess = () => {
   ];
 
   const industryConnect = [
-    { icon: Network, title: 'Collaborations', description: 'Industry partners', path: '/industry-connect/collaborations' },
+    { icon: Network, title: 'Collaborations', description: 'Industry partners', path: '/industry-connect' },
     { icon: HeartHandshake, title: 'Partnerships', description: 'Corporate allies', path: '/industry-connect/partnerships' },
     { icon: Users, title: 'Networks', description: 'Professional network', path: '/industry-connect/networks' },
     { icon: Calendar, title: 'Events', description: 'Industry meets', path: '/industry-connect/events' }

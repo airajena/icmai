@@ -146,7 +146,7 @@ const Navigation = () => {
       title: 'Industry Connect',
       path: '/industry-connect',
       items: [
-        { name: 'Industry Collaborations', path: '/industry-connect/collaborations' },
+        { name: 'Industry Collaborations', path: '/industry-connect' },
         { name: 'Corporate Partnerships', path: '/industry-connect/partnerships' },
         { name: 'Professional Networks', path: '/industry-connect/networks' },
         { name: 'Industry Events', path: '/industry-connect/events' }
