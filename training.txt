@@ -1,270 +1,142 @@
-# ICMAI Chatbot Training Data
+Journal & Publications
 
-## Basic Questions
 
-Q: What is ICMAI?
-A: The Institute of Cost Accountants of India (ICMAI) is a premier professional accounting body established in 1959, focusing on Cost and Management Accounting education. It is a statutory body established by an Act of Parliament.
+Click here for Journal & Publications Portal	Click here for Research Bulletin Portal
 
-Q: Where is ICMAI located?
-A: ICMAI headquarters is at CMA Bhawan, 12 Sudder Street, Kolkata - 700016.
+Latest Journal Issue
+ 
 
-Q: What are ICMAI's contact details?
-A: You can contact ICMAI through:
-- Email: studies@icmai.in
-- Phone: +91-33-2252-1031/1034/1035
-- Website: www.icmai.in
+June 2025
 
-## Navigation Questions
+June 2025 Journal Issue. (flip pfd format)
 
-Q: How do I find examination results?
-A: To check results:
-1. Click on 'Student Portal' in top menu
-2. Select 'Examination' tab
-3. Click on 'Results' section
-4. Enter your registration number
-5. Click 'View Results'
+ 
 
-Q: Where can I find study materials?
-A: Access study materials by:
-1. Login to Student Portal
-2. Navigate to 'Academic Resources'
-3. Select 'Study Materials'
-4. Choose your course level
-5. Download required materials
+ 
 
-Q: How do I access the member portal?
-A: To access the member portal:
-1. Click 'Member Login' in the top menu
-2. Enter your membership number and password
-3. Access member resources
+Download Archive Journal Issues
+ 
 
-## Course Related Questions
 
-Q: What courses does ICMAI offer?
-A: ICMAI offers several courses:
-1. Foundation Course
-2. Intermediate Course
-3. Final Course
-4. Advanced Studies Programs
-5. Professional Development Programs
-6. Specialized Courses
+ 
 
-Q: What is the eligibility for Foundation Course?
-A: For Foundation Course:
-- Minimum qualification: 10+2 pass in any stream
-- No age limit
-- Register through online admission portal
+ The Management Accountants (Archives)
 
-Q: How long does it take to complete the CMA course?
-A: The complete CMA course duration:
-- Foundation: 6-8 months
-- Intermediate: 1 year
-- Final: 1-1.5 years
-Total: Approximately 3-3.5 years
+2025
+May 2025
+FlipBook format of May 2025	 	 	 
+January 2025
+FlipBook format of January 2025	February 2025
+FlipBook format of February 2025	March 2025
+FlipBook format of March 2025	April 2025
+FlipBook format of April 2025
+2024
+September 2024
+October 2024
+November 2024
+December 2024
+May 2024
+June 2024
+July 2024
+August 2024
+January 2024
+February 2024
+March 2024
+April 2024
+2023
+September 2023	October 2023	November 2023	December 2023
+May 2023	June 2023	July 2023	August 2023
+Jan 2023	Feb 2023	March 2023	April 2023
+2022
+Sep 2022	Oct 2022	Nov 2022	Dec 2022
+May 2022	June 2022	July 2022	August 2022
+Jan 2022	Feb 2022	March 2022	April 2022
+2021
+Sep 2021	Oct 2021	Nov 2021	Dec 2021
+May 2021	June 2021	July 2021	August 2021
+January 2021	February 2021	March 2021	April 2021
+2020
+Sep 2020	Oct 2020	Nov 2020	Dec 2020
+May 2020	June 2020	July 2020	August 2020
+Jan 2020	February 2020	March 2020	April 2020
+2019
+Jan 2019	Feb 2019	March 2019	April 2019
+May 2019	June 2019	July 2019	August 2019
+Sep 2019	Oct 2019	Nov 2019	Dec 2019
+2018
+Jan 2018	Feb 2018	March 2018	April 2018
+May 2018	June 2018	July 2018	August 2018
+Sep 2018	Oct 2018	Nov 2018	Dec 2018
+2017
+Jan 2017	Feb 2017	March 2017	April 2017
+May 2017	June 2017	July 2017	August 2017
+Sep 2017	October 2017	November 2017	December 2017
+2016
+Jan 2016	Feb 2016	March 2016	April 2016
+May 2016	June 2016	July 2016	August 2016
+Sep 2016	October 2016	November 2016	December 2016
+2015
+Jan 2015	Feb 2015	March 2015	April 2015
+May 2015	June 2015	July 2015	August 2015
+Sep 2015	Oct 2015	Nov 2015	Dec 2015
+2014
+Jan 2014	 Feb 2014	 March 2014	 April 2014
+May 2014	June 2014	 July 2014	 August 2014
+Sep 2014	Oct 2014	Nov 2014	Dec 2014
+2013
+Jan 2013	 Feb 2013	 March 2013	 April 2013
+May 2013	 June 2013	 July 2013	 August 2013
+Sep 2013	 Oct 2013	 Nov 2013	 December 2013
+2012
+  Jan 2012	  Feb 2012	  Mar 2012	  Apr 2012
+  May 2012	  Jun 2012	  Jul 2012	  Aug 2012
+  Sep 2012	  Oct 2012	  Nov 2012	  Dec2012
+2011
+  Jan 2011	  Feb 2011	  Mar 2011	  Apr 2011
+  May 2011	  Jun 2011	  Jul 2011	  Aug 2011
+  Sep 2011	  Oct 2011	  Nov 2011	  Dec 2011
+2010
+  Jan 2010	  Feb 2010	  Mar 2010	  Apr 2010
+  May 2010 	  Jun 2010	  Jul 2010	  Aug 2010
+  Sept 2010  	  Oct 2010  	  Nov 2010  	  Dec 2010  
+ 
 
-## Admission Process
+ 
 
-Q: How do I apply for admission?
-A: To apply for admission:
-1. Visit the admission portal at /students/admission
-2. Choose your course level
-3. Fill the online application form
-4. Upload required documents
-5. Pay admission fees
-6. Submit application
+﻿
+INTERVIEWS
 
-Q: What documents are required for admission?
-A: Required documents include:
-- 10th mark sheet
-- 12th mark sheet
-- Graduation certificate (if applicable)
-- ID proof
-- Recent passport size photographs
-- Address proof
-- Category certificate (if applicable)
+Interviews of eminent dignitaries on relevant sectors viz. Infrastructure, Oil Refineries, Shipping, Power, Health Care, Edu ... Read more
 
-Q: How can I pay admission fees?
-A: Fees can be paid through:
-1. Online payment gateway
-2. Net banking
-3. Credit/Debit cards
-4. UPI
-Visit /payment for the payment portal
+E-LIBRARY AND RESOURCES
 
-## Examination Related
+Discover Our Journal Articles
 
-Q: When are the examinations conducted?
-A: ICMAI conducts examinations twice a year:
-- June session (Summer)
-- December session (Winter)
-Exact dates are announced on the website
+Advanced Search Browse Journals A-Z
+   Professional & Industrial Journals 
+"Click here to Receive your J-Gate Login Credentials"
+NEWS AND UPDATES
 
-Q: How do I download my admit card?
-A: Download admit card:
-1. Login to student portal
-2. Go to 'Examination' section
-3. Click 'Download Admit Card'
-4. Select examination term
-5. Print your admit card
+MA Journal May 2025
 
-Q: What is the passing criteria?
-A: To pass:
-- Minimum 40% marks in each paper
-- 50% aggregate marks
-- Separate passing in practical papers
+Papers invited for MA Journal 
 
-## Member Services
+Papers Invited for RB Journal
 
-Q: How do I become a member?
-A: To become a member:
-1. Complete CMA final examination
-2. Visit /members/application
-3. Fill membership form
-4. Submit required documents
-5. Pay membership fees
+Research Bulletin Latest Issue
 
-Q: How do I renew my membership?
-A: For membership renewal:
-1. Login to member portal
-2. Go to 'Renewal' section
-3. Pay renewal fees
-4. Download renewal certificate
+Management Accountant Latest Issue
 
-Q: What are the benefits of membership?
-A: Member benefits include:
-- Professional recognition
-- Access to CPE programs
-- Journal subscription
-- Networking opportunities
-- Practice rights
-- Access to research resources
+MA Journal May 2025
 
-## Professional Development
+Papers invited for MA Journal 
 
-Q: How do I register for CPE programs?
-A: Register for CPE:
-1. Visit /pd-cpe/about
-2. Browse available programs
-3. Select desired program
-4. Complete registration
-5. Pay program fees
+Messages
 
-Q: Where can I find upcoming webinars?
-A: Find webinars:
-1. Go to Professional Development section
-2. Click on 'Upcoming Events'
-3. Browse webinar schedule
-4. Register for desired sessions
+Message Info.........
 
-## Technical Support
+Read more
+Archive
 
-Q: How do I reset my password?
-A: To reset password:
-1. Click 'Forgot Password'
-2. Enter registered email
-3. Follow reset link in email
-4. Create new password
 
-Q: Website is not working, what should I do?
-A: If facing technical issues:
-1. Clear browser cache
-2. Try different browser
-3. Check internet connection
-4. Contact technical support at support@icmai.in
-
-## Research and Publications
-
-Q: How do I access the journal?
-A: Access journals:
-1. Visit /journal/latest
-2. Browse available issues
-3. Download desired articles
-4. For members: Use membership login for full access
-
-Q: Where can I find research papers?
-A: Find research papers:
-1. Go to Publications section
-2. Select 'Research Papers'
-3. Use filters to find relevant papers
-4. Download available papers
-
-## Fee Structure
-
-Q: What are the course fees?
-A: Course fees vary by level:
-- Foundation: Check /students/fees
-- Intermediate: Check /students/fees
-- Final: Check /students/fees
-Note: Fees are updated annually
-
-Q: Are there any scholarships available?
-A: Yes, scholarships are available:
-1. Merit-based scholarships
-2. Need-based financial aid
-3. Special category scholarships
-Visit /students/scholarships for details
-
-## Advanced Studies
-
-Q: What advanced programs are available?
-A: Advanced programs include:
-1. Specialized certifications
-2. International programs
-3. Industry-specific courses
-4. Research programs
-Visit /advanced-studies/courses for details
-
-Q: How do I apply for advanced studies?
-A: Apply for advanced studies:
-1. Visit /advanced-studies/about
-2. Check eligibility criteria
-3. Submit application
-4. Complete admission process
-
-## Industry Connect
-
-Q: How can companies hire CMAs?
-A: For recruitment:
-1. Visit /industry-connect/collaborations
-2. Register as recruiter
-3. Post job requirements
-4. Participate in placement drives
-
-Q: What industry partnerships exist?
-A: Find partnerships:
-1. Go to Industry Connect section
-2. View corporate partnerships
-3. Check collaboration opportunities
-4. Access industry resources
-
-## Quick Links Navigation
-
-Q: Where can I find important forms?
-A: Important forms location:
-1. Student forms: /students/forms
-2. Member forms: /members/forms
-3. Examination forms: /students/examinations
-4. Professional Development forms: /pd-cpe/forms
-
-Q: How do I find regional chapters?
-A: Find regional chapters:
-1. Go to About section
-2. Click on 'Regional Chapters'
-3. Use location filter
-4. Contact desired chapter
-
-## Updates and Notifications
-
-Q: How do I stay updated with ICMAI news?
-A: Stay updated through:
-1. News section on homepage
-2. Email newsletters
-3. Social media channels
-4. Mobile app notifications
-
-Q: Where are important notices posted?
-A: Find notices:
-1. Homepage news ticker
-2. Announcements section
-3. Student/Member dashboard
-4. Email notifications
+National Skill SHG Events Photography

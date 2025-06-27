@@ -39,8 +39,9 @@ const QuickAccess = () => {
   ];
 
   const placement = [
-    { icon: Briefcase, title: 'Career Services', description: 'Job opportunities', path: '/placement' },
+    
     { icon: Users, title: 'Campus Placement', description: 'Student recruitment', path: '/placement/campus' },
+    { icon: Briefcase, title: 'Career Services', description: 'Job opportunities', path: '/placement' },
     { icon: Building, title: 'Our Recruiters', description: 'Partner companies', path: '/placement/recruiters' },
     { icon: Calendar, title: 'Events', description: 'Placement drives', path: '/placement/events' }
   ];

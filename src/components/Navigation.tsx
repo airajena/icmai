@@ -56,12 +56,12 @@ const Navigation = () => {
       title: 'Placement',
       path: '/placement',
       items: [
+        { name: 'Campus Placement', path: '/placement/campus' },
         { name: 'Placement Home', path: '/placement' },
         { name: 'About Us', path: '/placement/about' },
         { name: 'Career Counselling', path: '/placement/counselling' },
         { name: 'C-Set Program', path: '/placement/cset' },
         { name: 'Orientation Programme', path: '/placement/orientation' },
-        { name: 'Campus Placement', path: '/placement/campus' },
         { name: 'Our Recruiters', path: '/placement/recruiters' },
         { name: 'Recruiter\'s Zone', path: '/placement/recruiter-zone' },
         { name: 'Contact', path: '/placement/contact' }
